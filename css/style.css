@@ -4,21 +4,25 @@ body {
     font-family: 'Merriweather', serif;
 }
 
-h1{
+h1 {
+    color: #66bfbf;
+    font-size: 70px;
     margin-top: 0;
     font-family: 'Caveat', cursive;
     
 }
 
 h2 {
-
-font-family: 'Montserrat', sans-serif;
+    color: #66bfbf;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
 
 }
 
 h3 {
-
-    font-family: 'Montserrat', sans-serif;
+    color: #11999e; 
+    font-family: 'Source Sans Pro', sans-serif;
 
 }
 
@@ -38,6 +42,13 @@ h3 {
     
 }
 
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
 .pro {
     text-decoration: underline;
 }
@@ -54,4 +65,15 @@ h3 {
     bottom: 300px;
 }
 
+.code-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.chilli-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
 
