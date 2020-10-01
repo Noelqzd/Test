@@ -45,8 +45,14 @@ hr {
 a {
 
     color: #11999e;
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin:  10px 20px;
+    text-decoration: none;
 }
 
+a:hover {
+    color: #eaf6;
+}
 
 .top-container {
     background-color: #E4F9F5;
@@ -134,4 +140,11 @@ a {
     background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
     text-decoration: none;
+  }
+
+  .copy {
+      color:#eaf6ea;
+      font-size: 0.75rem;
+      padding: 20px 0;
+      
   }
